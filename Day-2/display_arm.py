@@ -9,7 +9,8 @@ def arm(n):
         return True
     else:
         return False
-n=int(input())
-for i in range(n):
+n=int(input("Enter range :"))
+print("***Printing Armstrong Numbers in Range***")
+for i in range(1,n):
     if arm(i):
         print(i,end=" ")
