@@ -8,7 +8,6 @@ def store_students():
         lis.append(tup)   
     return lis
 
-
 def high_mark():
     students = store_students()      
     high = students[0][2]            
@@ -20,6 +19,7 @@ def high_mark():
             z = i
 
     print("Name of the student with highest marks:", students[z][1])
+    print("Details of the student with marks >77")
     for i in students:
         if(i[2]>77):
             print(i)
